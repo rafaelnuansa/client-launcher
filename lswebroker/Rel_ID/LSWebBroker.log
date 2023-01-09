@@ -1,0 +1,69 @@
+﻿Build started 1/3/2023 7:46:14 AM.
+     1>Project "D:\DEV GAME\losa-launcher-main\lswebroker\lswebroker\LSWebBroker.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Rel_ID\LSWebBroker.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Rel_ID\lswebbroker.exe" /INCREMENTAL:NO /NOLOGO version.lib Winmm.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Rel_ID\LSWebBroker.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"D:\DEV GAME\losa-launcher-main\lswebroker\lswebroker\Rel_ID\LSWebBroker.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Rel_ID\LSWebBroker.lib" /MACHINE:X86 Rel_ID\LSWebBroker.res
+         Rel_ID\cJSON.obj
+         Rel_ID\ioEncrypted.obj
+         Rel_ID\ioErrorDlg.obj
+         Rel_ID\ioLocalDlg.obj
+         Rel_ID\ioLoginDlg.obj
+         Rel_ID\ioLocalEU.obj
+         Rel_ID\ioLocalLatin.obj
+         Rel_ID\ioLocalSingapore.obj
+         Rel_ID\LSWebBroker.obj
+         Rel_ID\MainFrm.obj
+         Rel_ID\seed.obj
+         Rel_ID\seedenc.obj
+         Rel_ID\SetupAndStart.obj
+         Rel_ID\SetupFolderDlg.obj
+         Rel_ID\stdafx.obj
+         Rel_ID\TrayIcon.obj
+         Rel_ID\ioHashString.obj
+         Rel_ID\ioSingleton.obj
+         Rel_ID\ioStringManager.obj
+         Rel_ID\Safesprintf.obj
+         Rel_ID\ioLocalChina.obj
+         Rel_ID\ioLocalChinaLanguage.obj
+         Rel_ID\ioLocalGermany.obj
+         Rel_ID\ioLocalIndonesia.obj
+         Rel_ID\ioLocalJapan.obj
+         Rel_ID\ioLocalJapanLanguage.obj
+         Rel_ID\ioLocalKorea.obj
+         Rel_ID\ioLocalManager.obj
+         Rel_ID\ioLocalParent.obj
+         Rel_ID\ioLocalTaiwan.obj
+         Rel_ID\ioLocalTaiwanLanguage.obj
+         Rel_ID\ioLocalThailand.obj
+         Rel_ID\ioLocalThailandLanguage.obj
+         Rel_ID\ioLocalUS.obj
+         Rel_ID\CDialogSK.obj
+         Rel_ID\HoverButton.obj
+         Rel_ID\ioProgressBar.obj
+         Rel_ID\cpu_info.obj
+         Rel_ID\Crc32Static.obj
+         Rel_ID\HelpFunc.obj
+         Rel_ID\HttpApp.obj
+         Rel_ID\HttpManager.obj
+         Rel_ID\ioINILoaderAU.obj
+         Rel_ID\SystemInfo.obj
+         Rel_ID\TimeOutSocket.obj
+     1>ioLoginDlg.obj : error LNK2019: unresolved external symbol __imp__curl_easy_cleanup referenced in function "public: void __thiscall ioLoginDlg::OnBnClickedLogin(void)" (?OnBnClickedLogin@ioLoginDlg@@QAEXXZ)
+     1>ioLoginDlg.obj : error LNK2019: unresolved external symbol __imp__curl_easy_getinfo referenced in function "public: void __thiscall ioLoginDlg::OnBnClickedLogin(void)" (?OnBnClickedLogin@ioLoginDlg@@QAEXXZ)
+     1>ioLoginDlg.obj : error LNK2019: unresolved external symbol __imp__curl_easy_perform referenced in function "public: void __thiscall ioLoginDlg::OnBnClickedLogin(void)" (?OnBnClickedLogin@ioLoginDlg@@QAEXXZ)
+     1>ioLoginDlg.obj : error LNK2019: unresolved external symbol __imp__curl_slist_append referenced in function "public: void __thiscall ioLoginDlg::OnBnClickedLogin(void)" (?OnBnClickedLogin@ioLoginDlg@@QAEXXZ)
+     1>ioLoginDlg.obj : error LNK2019: unresolved external symbol __imp__curl_easy_setopt referenced in function "public: void __thiscall ioLoginDlg::OnBnClickedLogin(void)" (?OnBnClickedLogin@ioLoginDlg@@QAEXXZ)
+     1>ioLoginDlg.obj : error LNK2019: unresolved external symbol __imp__curl_easy_init referenced in function "public: void __thiscall ioLoginDlg::OnBnClickedLogin(void)" (?OnBnClickedLogin@ioLoginDlg@@QAEXXZ)
+     1>Rel_ID\lswebbroker.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "D:\DEV GAME\losa-launcher-main\lswebroker\lswebroker\LSWebBroker.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97

@@ -1,0 +1,440 @@
+﻿Build started 1/3/2023 2:14:11 PM.
+     1>Project "D:\DEV GAME\losa-launcher-main\lswebroker\LSWebBroker.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\LSWebBroker.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\LSWebBroker.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /O2 /Oy- /D CURL_STATICLIB /D WIN32 /D _WINDOWS /D SRC_KOR /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope- /Yc"StdAfx.h" /Fp"Release\LSWebBroker.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /O2 /Oy- /D CURL_STATICLIB /D WIN32 /D _WINDOWS /D SRC_KOR /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope- /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt cJSON.c
+         cJSON.c
+         D:\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /O2 /Oy- /D CURL_STATICLIB /D WIN32 /D _WINDOWS /D SRC_KOR /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope- /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ioEncrypted.cpp ioErrorDlg.cpp ioLocalDlg.cpp ioLoginDlg.cpp Local\ioLocalEU.cpp Local\ioLocalLatin.cpp Local\ioLocalSingapore.cpp LSWebBroker.cpp MainFrm.cpp seed.cpp seedenc.cpp SetupAndStart.cpp SetupFolderDlg.cpp TrayIcon.cpp StringManager\ioHashString.cpp StringManager\ioSingleton.cpp StringManager\ioStringManager.cpp StringManager\Safesprintf.cpp Local\ioLocalChina.cpp Local\ioLocalChinaLanguage.cpp Local\ioLocalGermany.cpp Local\ioLocalIndonesia.cpp Local\ioLocalJapan.cpp Local\ioLocalJapanLanguage.cpp Local\ioLocalKorea.cpp Local\ioLocalManager.cpp Local\ioLocalParent.cpp Local\ioLocalTaiwan.cpp Local\ioLocalTaiwanLanguage.cpp Local\ioLocalThailand.cpp Local\ioLocalThailandLanguage.cpp Local\ioLocalUS.cpp skin\CDialogSK.cpp skin\HoverButton.cpp skin\ioProgressBar.cpp Util\cpu_info.cpp Util\Crc32Static.cpp Util\HelpFunc.cpp Util\HttpApp.cpp Util\HttpManager.cpp Util\ioINILoaderAU.cpp Util\SystemInfo.cpp Util\TimeOutSocket.cpp
+         ioEncrypted.cpp
+         ioErrorDlg.cpp
+         ioLocalDlg.cpp
+         ioLoginDlg.cpp
+     1>ioEncrypted.cpp(156): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(188) : see declaration of 'strncpy'
+         ioLocalEU.cpp
+     1>ioLocalDlg.cpp(197): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+         ioLocalLatin.cpp
+         ioLocalSingapore.cpp
+         LSWebBroker.cpp
+     1>Local\ioLocalEU.cpp(95): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalEU.cpp(97): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalEU.cpp(112): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalEU.cpp(114): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalEU.cpp(143): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalEU.cpp(145): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalLatin.cpp(95): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalLatin.cpp(97): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalLatin.cpp(112): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalLatin.cpp(114): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalLatin.cpp(143): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalLatin.cpp(145): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         MainFrm.cpp
+     1>Local\ioLocalSingapore.cpp(110): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalSingapore.cpp(112): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         seed.cpp
+         seedenc.cpp
+         SetupAndStart.cpp
+         SetupFolderDlg.cpp
+         TrayIcon.cpp
+         ioHashString.cpp
+     1>SetupAndStart.cpp(327): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+         ioSingleton.cpp
+     1>TrayIcon.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>TrayIcon.cpp(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>StringManager\ioHashString.cpp(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>StringManager\ioHashString.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>StringManager\ioHashString.cpp(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>StringManager\ioHashString.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>SetupFolderDlg.cpp(170): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(791) : see declaration of '_splitpath'
+         ioStringManager.cpp
+         Safesprintf.cpp
+         ioLocalChina.cpp
+         ioLocalChinaLanguage.cpp
+         ioLocalGermany.cpp
+     1>StringManager\ioStringManager.cpp(39): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 D:\VS2010\VC\include\string.h(247) : see declaration of 'strlwr'
+     1>StringManager\ioStringManager.cpp(189): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 D:\VS2010\VC\include\string.h(247) : see declaration of 'strlwr'
+     1>StringManager\ioStringManager.cpp(272): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+         ioLocalIndonesia.cpp
+     1>Local\ioLocalChina.cpp(62): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalChina.cpp(64): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         ioLocalJapan.cpp
+         ioLocalJapanLanguage.cpp
+         ioLocalKorea.cpp
+         ioLocalManager.cpp
+     1>Local\ioLocalIndonesia.cpp(123): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalIndonesia.cpp(125): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalJapan.cpp(109): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalJapan.cpp(111): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalJapan.cpp(140): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalJapan.cpp(142): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         ioLocalParent.cpp
+     1>Local\ioLocalKorea.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>Local\ioLocalKorea.cpp(143): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(110) : see declaration of 'strcat'
+     1>Local\ioLocalKorea.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(110) : see declaration of 'strcat'
+     1>Local\ioLocalKorea.cpp(145): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(110) : see declaration of 'strcat'
+     1>Local\ioLocalKorea.cpp(146): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(110) : see declaration of 'strcat'
+     1>Local\ioLocalKorea.cpp(153): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         ioLocalTaiwan.cpp
+         ioLocalTaiwanLanguage.cpp
+         ioLocalThailand.cpp
+         ioLocalThailandLanguage.cpp
+         ioLocalUS.cpp
+     1>Local\ioLocalParent.cpp(125): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalParent.cpp(127): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalTaiwan.cpp(67): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalTaiwan.cpp(69): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         CDialogSK.cpp
+     1>Local\ioLocalThailand.cpp(68): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalThailand.cpp(70): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         HoverButton.cpp
+         ioProgressBar.cpp
+     1>Local\ioLocalUS.cpp(137): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalUS.cpp(139): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalUS.cpp(154): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalUS.cpp(156): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalUS.cpp(188): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+     1>Local\ioLocalUS.cpp(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\string.h(197) : see declaration of 'strtok'
+         cpu_info.cpp
+     1>skin\CDialogSK.cpp(13): warning C4005: 'LWA_COLORKEY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(4024) : see previous definition of 'LWA_COLORKEY'
+     1>skin\CDialogSK.cpp(14): warning C4005: 'LWA_ALPHA' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h(4025) : see previous definition of 'LWA_ALPHA'
+         Crc32Static.cpp
+         HelpFunc.cpp
+     1>Util\Crc32Static.cpp(181): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>Util\Crc32Static.cpp(186): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         HttpApp.cpp
+     1>Util\cpu_info.cpp(99): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>Util\cpu_info.cpp(107): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>Util\cpu_info.cpp(115): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>Util\cpu_info.cpp(123): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 D:\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>Util\cpu_info.cpp(1039): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1205): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1211): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1213): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1215): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1216): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1217): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1218): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1224): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1225): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1227): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1228): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1229): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1230): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1235): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1236): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1237): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1238): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1239): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1242): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1243): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1255): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1258): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1267): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1277): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1278): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1279): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1280): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1281): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1283): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1288): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1290): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1291): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1292): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1293): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1294): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1296): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1297): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1302): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1305): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1317): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1327): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1331): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1356): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1361): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1370): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1378): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1379): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1383): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1392): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1399): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1400): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1401): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1406): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1408): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1409): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1410): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1411): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1415): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1424): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1425): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1435): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Util\cpu_info.cpp(1440): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         HttpManager.cpp
+         ioINILoaderAU.cpp
+     1>Util\HelpFunc.cpp(84): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>Util\HelpFunc.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+         SystemInfo.cpp
+         TimeOutSocket.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0412" /IRelease\ /nologo /fo"Release\LSWebBroker.res" LSWebBroker.rc 
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\lswebbroker.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:curl libcurl.lib version.lib Winmm.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Release\LSWebBroker.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"D:\DEV GAME\losa-launcher-main\lswebroker\Release\LSWebBroker.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\LSWebBroker.lib" /MACHINE:X86 Release\LSWebBroker.res
+         Release\cJSON.obj
+         Release\ioEncrypted.obj
+         Release\ioErrorDlg.obj
+         Release\ioLocalDlg.obj
+         Release\ioLoginDlg.obj
+         Release\ioLocalEU.obj
+         Release\ioLocalLatin.obj
+         Release\ioLocalSingapore.obj
+         Release\LSWebBroker.obj
+         Release\MainFrm.obj
+         Release\seed.obj
+         Release\seedenc.obj
+         Release\SetupAndStart.obj
+         Release\SetupFolderDlg.obj
+         Release\stdafx.obj
+         Release\TrayIcon.obj
+         Release\ioHashString.obj
+         Release\ioSingleton.obj
+         Release\ioStringManager.obj
+         Release\Safesprintf.obj
+         Release\ioLocalChina.obj
+         Release\ioLocalChinaLanguage.obj
+         Release\ioLocalGermany.obj
+         Release\ioLocalIndonesia.obj
+         Release\ioLocalJapan.obj
+         Release\ioLocalJapanLanguage.obj
+         Release\ioLocalKorea.obj
+         Release\ioLocalManager.obj
+         Release\ioLocalParent.obj
+         Release\ioLocalTaiwan.obj
+         Release\ioLocalTaiwanLanguage.obj
+         Release\ioLocalThailand.obj
+         Release\ioLocalThailandLanguage.obj
+         Release\ioLocalUS.obj
+         Release\CDialogSK.obj
+         Release\HoverButton.obj
+         Release\ioProgressBar.obj
+         Release\cpu_info.obj
+         Release\Crc32Static.obj
+         Release\HelpFunc.obj
+         Release\HttpApp.obj
+         Release\HttpManager.obj
+         Release\ioINILoaderAU.obj
+         Release\SystemInfo.obj
+         Release\TimeOutSocket.obj
+         LSWebBroker.vcxproj -> D:\DEV GAME\losa-launcher-main\lswebroker\Release\LSWebBroker.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\lswebbroker.exe;#1" /manifest res\LSWebBroker.exe.manifest Release\LSWebBroker.exe.intermediate.manifest D:\VS2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\LSWebBroker.unsuccessfulbuild".
+         Touching "Release\LSWebBroker.lastbuildstate".
+     1>Done Building Project "D:\DEV GAME\losa-launcher-main\lswebroker\LSWebBroker.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.30
